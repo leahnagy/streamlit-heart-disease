@@ -79,8 +79,8 @@ def user_input_features():
 	else:
 		Veggies = 0 
 
-	HvyAlcoholConsump = st.sidebar.selectbox("Do you regularly consume more than 14 drinks per week (males) or \
-		more than 7 drinks per week (females)?", ["yes", "no"])
+	HvyAlcoholConsump = st.sidebar.selectbox("Do you regularly consume more than 14 alcoholic drinks per week (males) or \
+		more than 7 alcoholic drinks per week (females)?", ["yes", "no"])
 	if HvyAlcoholConsump == "yes":
 		HvyAlcoholConsump = 1
 	else:
